@@ -9,6 +9,12 @@ app.get('/api/db', (req, res) => {
     res.json(db);
   });
 
+  app.post('/api/db', (req, res) => {
+    // req.body is where our incoming content will be
+    console.log(req.body);
+    res.json(req.body);
+  });
+
 app.listen(PORT, () => {
     console.log(`API server on port ${PORT}!`);
 })
