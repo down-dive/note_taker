@@ -1,11 +1,14 @@
 const fs = require('fs');
 const express = require('express');
+const { db } = require('./db/db.json')
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3002;
 const app = express();
 
-app.listen(PORT, () => {
-    console.log(`API server not on port ${PORT}!`);
-})
+app.get('/api/db', (req, res) => {
+    res.json(db);
+  });
 
-app.get
+app.listen(PORT, () => {
+    console.log(`API server on port ${PORT}!`);
+})
