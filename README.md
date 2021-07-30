@@ -16,7 +16,7 @@
 Follow the published page on heroku:  https://ntkr.herokuapp.com/notes
 
 ## Usage
-A fresh way to manage your notes in a clean and easy managable way
+A fresh way to manage your notes in a clean and easy way
 
 ## Contributions
 If you want to contribute please contact Yev
