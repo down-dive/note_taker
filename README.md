@@ -1,32 +1,55 @@
-# Note Taker
+# Note Taker App
+
+![GitHub license badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
- An application that can be used to write , delete and save notes.
+
+The main purpose of this project is to create a tool for writing and saving notes. This tool is helpful especially for small business owners who want to keep track of tasks they need to complete.
 
 ## Table of Contents
-
-* [Installation](#installation)
+* [Description](#description)
+* [Table of Contents](#table-of-contents)
 * [Usage](#usage)
-* [Contributions](#contributions)
-* [Testing](#testing)
-* [Credits](#credits)
 * [License](#license)
-
-## Installation
-Follow the published page on heroku:  https://ntkr.herokuapp.com/notes
+* [Contributing](#contributing)
+* [Screenshots](#screenshots)
+* [Live-URL](#Live-URL)
+* [Questions](#questions)
 
 ## Usage
-A fresh way to manage your notes in a clean and easy way
+Please first install node.js and then run the following commands into your terminal: 
 
-## Contributions
-If you want to contribute please contact Yev
-
-## Testing
-No tests
-
-## Credits
-GitHub: 
-* https://www.github.com/down-dive
-
+```
+git clone <from-repository-on-github>
+npm install
+npm start
+```
 ## License
-Copyright (c) 2021 Yevgeniya Terlyuk
+Please see the following link for license information: 
+[GitHub-license](./utils/license-MIT.txt)
+
+## Contributing
+Please first submit a new issue for the change you want to make in this repository on GitHub. Then, git clone the repo and do the changes locally on your machine. When you are done with your changes, create a pull request on the GitHub repository.
+
+## Screenshots
+Please see below for the snapshots of two pages of note taker app:
+
+* Main Page
+
+![alt=note-taker-mainPage](./utils/images/mainPage.PNG)
+
+* Notes Page
+
+![alt=note-taker-notesPage](./utils/images/notesPage.png)
+
+
+## Live-URL
+Here is the live url of deployed application:
+[Live URL](https://ntkr.herokuapp.com/notes)
+
+## Questions
+If you have any questions please use the following two links to contact me:
+
+* [GitHub](https://github.com/down-dive)
+
+* [Email Address](mailto:yterlyuk@gmail.com)
